@@ -1,0 +1,50 @@
+name: smart_pharmacy_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.0
+  cloud_firestore: ^4.15.0
+
+  # State management & storage
+  get: ^4.7.3
+  get_storage: ^2.1.1
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+  # PDF / reports
+  pdf: ^3.10.0
+  printing: ^5.11.0
+  path_provider: ^2.1.0
+
+  # Payments
+  flutter_sslcommerz: ^2.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/medicine.png
+    - assets/offers/offer1.png
+    - assets/offers/offer2.png
+    - assets/offers/offer3.png
+    - assets/medicine1.png
+    - assets/medicine2.png
+    - assets/medicine3.png
+    - assets/medicine4.png
+    - assets/medicine5.png
+    - assets/injection.png
